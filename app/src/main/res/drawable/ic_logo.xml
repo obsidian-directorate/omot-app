@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96"
+    android:tint="?attr/colorPrimary">
+
+    <group>
+        <!-- Outer shield/circle -->
+        <path
+            android:pathData="M48,8 L80,20 v28a32,32 0 1,1 -64,0 V20Z"
+            android:strokeWidth="2"
+            android:fillColor="@android:color/transparent"
+            android:strokeColor="?attr/colorSecondary" />
+
+        <!-- Inner Diamond/Eye -->
+        <path
+            android:pathData="M48,36 L60,48 48,60 36,48 Z"
+            android:strokeWidth="2"
+            android:fillColor="@android:color/transparent"
+            android:strokeColor="?attr/colorSecondary"/>
+
+        <!-- Central Dot/Pupil -->
+        <path
+            android:pathData="M48,48 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"
+            android:fillColor="?attr/colorSecondary"/>
+    </group>
+</vector>
