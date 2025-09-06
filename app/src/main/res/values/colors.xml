@@ -15,6 +15,14 @@
     <color name="colorOnPrimary">@color/osd_white</color>
 
     <!-- Secondary brand colors -->
+    <!-- The vibrant, electric accent color. Represents active data streams, success, and enabled state. -->
+    <color name="colorSecondary">#FF00C2FF</color>
+    <!-- A darker, more subdued variant of the secondary color. -->
+    <color name="colorSecondaryVariant">#FF007BFF</color>
+    <!-- Text and icons that appear on top of colorSecondary. -->
+    <color name="colorOnSecondary">@color/osd_white</color>
+
+    <!-- Secondary brand colors -->
     <!-- For warnings, critical alerts, errors, and destructive actions. -->
     <color name="colorTertiary">#FFFF5252</color>
     <!-- For success confirmations and positive status. -->
@@ -47,8 +55,8 @@
     <color name="clearance_shadow">#FF9C27B0</color> <!-- Purple -->
 
     <!-- Legacy compatibility (Material Defaults - use OSD colors) -->
-    <color name="purple_200">#FFCE93D8</color>
-    <color name="purple_500">#FF9C27B0</color>
+    <color name="purple_200">@color/colorSecondaryVariant</color>
+    <color name="purple_500">@color/colorSecondary</color>
     <color name="purple_700">#FF005EC4</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>

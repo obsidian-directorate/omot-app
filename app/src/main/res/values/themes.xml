@@ -1,9 +1,96 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.OMOTProject" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorSecondary</item>
+        <item name="colorTertiary">@color/colorTertiary</item>
+        <item name="colorOnTertiary">@color/colorOnTertiary</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">?attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+
+        <!-- Surface and background colors -->
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorOnSurfaceVariant">@color/colorOnSurfaceVariant</item>
+        <item name="colorOutline">@color/colorOutline</item>
+
+        <!-- Default typography: Exo 2 for general UI text -->
+        <item name="android:fontFamily">@font/exo_2_regular</item>
+        <item name="fontFamily">@font/exo_2_regular</item>
+
+        <!-- TextAppearance styles -->
+        <!-- HeadLine 1: Orbitron for major titles and clearance banners -->
+        <item name="textAppearanceHeadlineLarge">
+            @style/TextAppearance.OMOT.Headline.Large
+        </item>
+
+        <!-- Body 1: Roboto Mono for terminal text, dossiers, and secure comms -->
+        <item name="textAppearanceBodyLarge">
+            @style/TextAppearance.OMOT.Body.Large
+        </item>
+
+        <!-- Body 2: Exo 2 for general body text and mission briefs -->
+        <item name="textAppearanceBodyMedium">
+            @style/TextAppearance.OMOT.Body.Medium
+        </item>
+
+        <!-- Label: Russo One for important labels, warnings, and buttons -->
+        <item name="textAppearanceLabelLarge">
+            @style/TextAppearance.OMOT.Label.Large
+        </item>
+
+        <!-- Component styles -->
+        <item name="materialButtonStyle">@style/Widget.OMOT.Button</item>
+        <item name="editTextStyle">@style/Widget.OMOT.EditText</item>
     </style>
 
+    <!-- Main application theme -->
     <style name="Theme.OMOTProject" parent="Base.Theme.OMOTProject" />
+
+    <!-- Text appearance styles -->
+    <style name="TextAppearance.OMOT.Headline.Large" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:fontFamily">@font/orbitron_medium</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <style name="TextAppearance.OMOT.Body.Large" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:fontFamily">@font/roboto_mono_regular</item>
+        <item name="android:textColor">@color/colorOnSurface</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="TextAppearance.OMOT.Body.Medium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">@font/exo_2_regular</item>
+        <item name="android:textColor">@color/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.OMOT.Label.Large" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:fontFamily">@font/russo_one_regular</item>
+        <item name="android:textColor">@color/colorOnSurface</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.03</item>
+    </style>
+
+    <!-- Component styles -->
+    <style name="Widget.OMOT.Button" parent="Widget.Material3.Button">
+        <item name="android:fontFamily">@font/russo_one_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="Widget.OMOT.EditText" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorSecondary</item>
+        <item name="hintTextColor">@color/colorSecondary</item>
+        <item name="android:textColorHint">@color/colorSecondary</item>
+        <item name="android:textColor">@color/colorOnSurface</item>
+        <item name="android:fontFamily">@font/roboto_mono_regular</item>
+    </style>
 </resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pre-declares all custom font families to be used in themes.xml -->
+    <array name="preloaded_fonts" translatable="false">
+        <!-- Exo 2 - primary body font -->
+        <item>@font/exo_2_regular</item>
+        <item>@font/exo_2_medium</item>
+        <item>@font/exo_2_bold</item>
+
+        <!-- Orbitron - headings & clearance -->
+        <item>@font/orbitron_medium</item>
+        <item>@font/orbitron_bold</item>
+        <item>@font/orbitron_black</item>
+
+        <!-- Roboto Mono - terminal text -->
+        <item>@font/roboto_mono_regular</item>
+        <item>@font/roboto_mono_medium</item>
+
+        <!-- Russo One - warnings & alerts -->
+        <item>@font/russo_one_regular</item>
+    </array>
+</resources>
