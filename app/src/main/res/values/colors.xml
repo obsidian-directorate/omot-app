@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- OSD core identity colors -->
+    <!-- The deep, impenetrable black of obsidian. The foundation of all surfaces. -->
+    <color name="osd_obsidian">#FF0A0A0F</color>
+    <!-- The stark, pure white of data readouts and high-contrast text. -->
+    <color name="osd_white">#FFFFFFFF</color>
+
+    <!-- Primary brand colors -->
+    <!-- The main brand color. Used for key interactive elements and primary UI accents. -->
+    <color name="colorPrimary">@color/osd_obsidian</color>
+    <!-- A variant of the primary color, for differentiating elements. -->
+    <color name="colorPrimaryVariant">#FF1A1A2E</color>
+    <!-- Text and icons that appear on top of colorPrimary. -->
+    <color name="colorOnPrimary">@color/osd_white</color>
+
+    <!-- Secondary brand colors -->
+    <!-- For warnings, critical alerts, errors, and destructive actions. -->
+    <color name="colorTertiary">#FFFF5252</color>
+    <!-- For success confirmations and positive status. -->
+    <color name="color_success">#FF4CAF50</color>
+    <!-- For pending or ongoing statuses. -->
+    <color name="color_warning">#FFFFC107</color>
+    <!-- Text and icons that appear on top of status colors. -->
+    <color name="colorOnTertiary">@color/osd_white</color>
+
+    <!-- Surface, background & elevation colors -->
+    <!-- The background color of the app. -->
+    <color name="colorBackground">@color/osd_obsidian</color>
+    <!-- The color of surfaces such as cards, sheets, and menus. -->
+    <color name="colorSurface">#FF121212</color>
+    <!-- Text and icons that appear on top of colorSurface. -->
+    <color name="colorOnSurface">#FFF5F5F5</color>
+    <!-- A more muted version of on-surface text, for hints and secondary info. -->
+    <color name="colorOnSurfaceVariant">#FFBDBDBD</color>
+
+    <!-- Functional colors -->
+    <!-- The color of input field backgrounds. -->
+    <color name="colorInputField">#FF1E1E29</color>
+    <!-- The color for dividers and subtle borders. -->
+    <color name="colorOutline">#FF37474F</color>
+
+    <!-- Clearance level colors (Referenced in-code) -->
+    <color name="clearance_beta">#FF4CAF50</color> <!-- Green -->
+    <color name="clearance_alpha">#FF2196F3</color> <!-- Blue -->
+    <color name="clearance_omega">#FFF44336</color> <!-- Red -->
+    <color name="clearance_shadow">#FF9C27B0</color> <!-- Purple -->
+
+    <!-- Legacy compatibility (Material Defaults - use OSD colors) -->
+    <color name="purple_200">#FFCE93D8</color>
+    <color name="purple_500">#FF9C27B0</color>
+    <color name="purple_700">#FF005EC4</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">@color/osd_obsidian</color>
+    <color name="white">@color/osd_white</color>
 </resources>

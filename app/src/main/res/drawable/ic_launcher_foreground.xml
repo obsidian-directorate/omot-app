@@ -11,7 +11,7 @@
 
     <path
         android:pathData="M54,41 L65,52 54,63 43,52 Z"
-        android:fillColor="@color/white" />
+        android:fillColor="@color/osd_white" />
 
     <path
         android:pathData="M54,52 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"
