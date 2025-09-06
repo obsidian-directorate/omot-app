@@ -96,9 +96,10 @@
 
     <!-- Theme for the Splash Activity -->
     <style name="Theme.OMOT.Splash" parent="Theme.OMOTProject">
-        <item name="android:windowBackground">@drawable/splash_screen_background</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 </resources>
