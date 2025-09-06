@@ -93,4 +93,12 @@
         <item name="android:textColor">@color/colorOnSurface</item>
         <item name="android:fontFamily">@font/roboto_mono_regular</item>
     </style>
+
+    <!-- Theme for the Splash Activity -->
+    <style name="Theme.OMOT.Splash" parent="Theme.OMOTProject">
+        <item name="android:windowBackground">@drawable/splash_screen_background</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
 </resources>
